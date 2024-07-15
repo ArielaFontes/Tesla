@@ -22,8 +22,8 @@
             </div>
 
             <div class="rodape">
-                <button onclick="aparecerFormulario()">Comprar Agora</button>
-                <button class="test-drive">Faça um Test-Drive</button>
+                <button onclick="aparecerFormularioComprar()">Comprar Agora</button>
+                <button class="test-drive" onclick="aparecerFormularioTestDrive()">Faça um Test-Drive</button>
                 <p class="texto-rodape">Não garantimos seu veículo imediatamente. Consultar estoque*</p>
             </div>
         </li>
@@ -50,13 +50,19 @@
         </li>
     </ul>
 
-    <div class="formulario">
-        <button onclick="desaparecerFormulario()">Fechar</button>
+    <!-- Formulário Comprar Agora -->
+    <div class="formulario-comprar formulario" style="left: -50%;">
+        <button onclick="desaparecerFormularioComprar()">Fechar</button>
         <script type="text/javascript" src="https://form.jotform.com/jsform/241937513164053"></script>
     </div>
 
+    <!-- Formulário Test-Drive -->
+    <div class="formulario-test-drive formulario" style="left: -50%;">
+        <button onclick="desaparecerFormularioTestDrive()">Fechar</button>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/241937951131053"></script>
+    </div>
 
+    <script src="scripts.js"></script>
 </body>
-<script src="scripts.js"></script>
 
 </html>
