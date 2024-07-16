@@ -4,4 +4,4 @@ Tecnologias Utilizadas:
 
 HTML & CSS: Estruturação e estilização do conteúdo.
 
-JavaScript​: Interatividade dinâmica para o formulário de compra.
+JavaScript​: Interatividade dinâmica para o formulário de compra e test-drive.
